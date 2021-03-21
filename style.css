@@ -14,14 +14,26 @@ h2{
     color:white;
 }
 
+h3{
+    text-align: center;
+    margin: 10px;
+}
+
+h5{
+    text-align: center;
+}
+
 p{
     font-family: 'Merriweather', serif; 
 }
 
 ul{
     list-style: none;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;  
+    text-align: center;
+    padding-left: 0;
 }
+
 
 /* nav */
 nav{
@@ -96,6 +108,11 @@ p.card-text.text-center.card-1-text:hover{
 }
 
 /* form */
+
+form#form{
+    width: 75%;
+    margin: 0 auto;
+}
 .sub-btn{
     color:white;
     font-weight: bold;
